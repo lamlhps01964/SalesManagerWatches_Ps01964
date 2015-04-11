@@ -19,11 +19,16 @@
         
     End Sub
     'sự kiện form trợ giúp
+    'kết quả của việc sử dụng Github
     Private Sub mniTroGiup_Click(sender As Object, e As EventArgs) Handles mniTroGiup.Click
         Help.ShowHelp(Me, "Help_Assignment_PS01964.chm")
     End Sub
 
     Private Sub mniKH_Click(sender As Object, e As EventArgs) Handles mniKH.Click
+
+    End Sub
+
+    Private Sub frmMain_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
 End Class
